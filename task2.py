@@ -1,7 +1,7 @@
+# Задача 2. Построить диаграмму рассеяния для двух наборов случайных данных…
+
 import numpy as np
 import matplotlib.pyplot as plt
-
-# Задача 2. Построй диаграмму рассеяния для двух наборов случайных данных…
 
 random_array_1 = np.random.rand(5)
 print(random_array_1)
