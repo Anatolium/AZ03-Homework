@@ -1,7 +1,8 @@
+# Задача 1. Создать гистограмму для случайных данных…
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Задача 1. Создай гистограмму для случайных данных…
 mean = 0
 std_dev = 1
 num_samples = 1000
