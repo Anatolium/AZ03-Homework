@@ -14,8 +14,8 @@ data = [5, 6, 7, 4, 6, 5, 7, 8, 5, 8, 9, 10, 11, 8, 9, 10, 7, 6, 5, 7, 8, 9, 10,
 plt.hist(data, bins=6)
 
 plt.title("Тестовая гистограма")
-plt.xlabel("часы сна")
-plt.ylabel("количество людей")
+plt.xlabel("Часы сна")
+plt.ylabel("Количество людей")
 
 plt.show()
 
@@ -24,9 +24,8 @@ y = [3, 5, 8, 10]
 
 plt.scatter(x, y)
 
-plt.xlabel("ось Х")
-plt.ylabel("ось Y")
+plt.xlabel("Ось Х")
+plt.ylabel("Ось Y")
 plt.title("Тестовая диаграмма рассеяния")
 
 plt.show()
-
