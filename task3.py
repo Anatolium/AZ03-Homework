@@ -31,6 +31,7 @@ driver.get(divan_url)
 time.sleep(3)
 # Ограничиваемся одной страницей (48 товаров)
 get_goods_info()
+driver.quit()
 
 # Запись данных
 if len(parsed_data):
@@ -41,8 +42,6 @@ if len(parsed_data):
     print(f"---> Найдено {len(parsed_data)} товаров")
 else:
     print("Данные не найдены")
-
-driver.quit()
 
 # Читаем данные
 data = pd.read_csv(csv_file)
